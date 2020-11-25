@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário</h1>
+    </header>
+    <nav></nav>
+    <section>
+        <!--
+        Outros tipos de parâmetros:
+        
+        <input>
+        autocomplete - para completar automaticamente o formulário
+        autofocus - dar foco em algum campo em específico
+        disabled - desabilitar algum campo
+        max - definir qual o número que vai ser digitado
+        maxlength - definir qual o número máximo de dígitos
+        min - definir qual o número mínimo que vai ser digitado
+        name - definir uma cadeia de caracteres
+        pattern - padrão de elementos que irão ser digitados
+        placeholder - descrição dentro do campo
+        readonly - apenas de leitura
+        required - definir se um campo é ou não obrigatório
+        size - definir a largura do campo (pixel ou em porcentagem)
+        type - definir o tipo de campo (texto, inteiro, etc)
+        value - definir o valor dentro do campo
+        -->
+    
+        <h2>Campo de Texto</h2>
+        <form method="post" action="#">
+            Nome: <input type="text">
+            <br>
+            Email: <input type="text">
+        </form>
+        
+        <h2>Placeholder</h2>
+        <form>
+            Nome: <input type="text" name="nome" placeholder="Informe o seu nome">
+        </form>
+        
+        <h2>Disabled</h2>
+        <form>
+            Nome: <input type="text" name="nome2" placeholder="Informe o seu nome" disabled>
+        </form>
+        
+        <h2>Value</h2>
+        <form>
+            Nome: <input type="text" name="nome3" placeholder="Informe o seu nome" value="Joana">
+        </form>
+        
+        <h2>ReadOnly</h2>
+        <form>
+            Nome: <input type="text" name="nome4" placeholder="Informe o seu nome" value="Joana" readonly>
+        </form>
+        
+        <h2>MaxLength / Required / Pattern</h2>
+        <form>
+            Nome: <input type="text" name="nome5" placeholder="Informe o seu nome" value="Joana" required>
+            CPF: <input type="text" name="cpf" maxlength="14" pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}">
+        </form>
+        
+        <h2>Campo de Senha</h2>
+        <form method="post" action="#">
+            Email: <input type="text" name="email">
+            <br>
+            Senha: <input type="password" name="senha">
+        </form>
+    
+        <!--
+       Outros tipos de parâmetros:
+       
+       <textarea>
+       autofocus - dar foco em algum campo em específico
+       cols - definir de colunas no formulário
+       disabled - desabilitar algum campo
+       maxlength - definir qual o número máximo de dígitos
+       name - definir uma cadeia de caracteres
+       placeholder - descrição dentro do campo
+       readonly - apenas de leitura
+       rows - definir de linhas no formulário
+       wrap - define a quebra automática do texto quando ele atinge a borda
+       -->
+        
+        <h2>TextArea</h2>
+        <form method="post" action="#">
+            Endereçoo: <textarea name="endereco">Av. Brasil, 12 - Cidade / Estado</textarea>
+        </form>
+    </section>
+    <footer></footer>
+</body>
+</html>
