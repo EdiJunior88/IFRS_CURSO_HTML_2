@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campos de Seleção</title>
+</head>
+<body>
+    <header><h1>Campos de Seleção</h1></header>
+    <nav></nav>
+    <section>
+        
+        <!--
+        Parâmetros
+        
+        <input type="chebox">
+        <input type="radio">
+        
+        checked - Especifica que um elemento de entrada deve ser pré-selecionado quando a página carrega (para type = 'checkbox' ou type = 'radio')
+        -->
+    
+        <!--
+       Parâmetros
+       
+       <select>
+       
+       autofocus - Especifica que um botão deve receber o foco automaticamente quando a página carrega
+       disabled - Especifica que um botão deve ser desativado
+       multiple - Especifica que um usuário pode inserir mais de um valor em um elemento de entrada
+       name - Especifica um nome para o botão
+       required - Especifica que um campo de entrada deve ser preenchido antes de enviar o formulário
+       size - Especifica a largura, em caracteres, de um elemento de entrada
+       -->
+    
+        <!--
+       Parâmetros
+       
+       <option>
+       
+       disabled - Especifica que um botão deve ser desativado
+       label - Especifica um rótulo mais curto para uma opção
+       selected - Especifica que uma opção deve ser pré-selecionada quando a página carrega
+       value - Especifica o valor de um elemento de entrada
+       -->
+        
+        <h2>CheckBox</h2>
+        
+        <form method="post" action="#">
+            Quais cursos você fará?
+            <br>
+            <input type="checkbox" name="html" value="1"> HTML
+            <br>
+            <input type="checkbox" name="css" value="1"> CSS
+            <br>
+            <input type="checkbox" name="JavaScript" value="1"> JavaScript
+            <br>
+        </form>
+        
+        <h2>Radio</h2>
+        
+        <form method="post" action="#">
+            Quais cursos você fará?
+            <br>
+            <input type="radio" name="curso" value="html">HTML
+            <br>
+            <input type="radio" name="curso" value="css">CSS
+            <br>
+            <input type="radio" name="curso" value="JavaScript"> JavaScript
+        </form>
+        
+        <h2>CheckBox / Radio</h2>
+        
+        <form method="post" action="#">
+            Qual aparelho você possui?
+            <br>
+            <input type="checkbox" name="notebook" value="sim"> Notebook
+            <br>
+            <input type="checkbox" name="tablet" value="sim"> Tablet
+            <br>
+            <input type="checkbox" name="celular" value="sim" checked> Celular
+            <br>
+            Você prefere:
+            <br>
+            <input type="radio" name="sistema" value="android" checked> Android
+            <br>
+            <input type="radio" name="sistema" value="ios"> IOS
+        </form>
+        
+        <h2>Select</h2>
+        
+        <form method="post" action="#">
+            Qual curso você fará?
+            <br>
+            <select name="curso">
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JAVASCRIPT">JavaScript</option>
+            </select>
+        </form>
+    </section>
+    <footer></footer>
+</body>
+</html>
