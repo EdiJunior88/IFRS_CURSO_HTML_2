@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botões</title>
+</head>
+<body>
+    <header><h1>Botões</h1></header>
+    <nav></nav>
+    <section>
+        
+        <h2>Botão Simples</h2>
+        <button type="button">Clique</button>
+        
+        <!--
+        Parâmetros
+        
+        <button>
+        
+        autofocus - Especifica que um botão deve receber o foco automaticamente quando a página carrega
+        disabled - Especifica que um botão deve ser desativado
+        name - Especifica um nome para o botão
+        type: button, reset, submit
+        value - Especifica um valor inicial para o botão
+        -->
+    
+        <!--
+        Parâmetros
+        
+        <button type="submit">
+        
+        formaction - Especifica para onde enviar os dados do formulário quando um formulário é enviado. Apenas para type = 'enviar'
+        formmethod - Especifica como enviar os dados do formulário (qual método HTTP usar). Apenas para type = 'enviar'
+        formnovalidate - Especifica que os dados do formulário não devem ser validados no envio. Apenas para type = 'enviar'
+        formtarget - Especifica onde exibir a resposta após o envio do formulário. Apenas para type = 'enviar'
+        -->
+    
+        <h2>Botão com Formulário</h2>
+        <form method="post" action="#">
+            Login: <input type="text" name="login">
+            <br>
+            Senha: <input type="password" name="senha">
+            <br>
+            <button type="submit">Quero Logar</button>
+        </form>
+    </section>
+    <footer></footer>
+</body>
+</html>
