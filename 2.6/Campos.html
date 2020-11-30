@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novos Campos</title>
+</head>
+<body>
+    <header><h1>Novos Campos</h1></header>
+    <nav></nav>
+    <section>
+        <h2>Email</h2>
+        <form method="post" action="#">
+            <input type="email" name="email">
+        </form>
+        
+        <h2>Data</h2>
+        <form method="post" action="#">
+            <input type="date" name="data">
+        </form>
+        
+        <h2>Escala</h2>
+        <form method="post" action="#">
+            <input type="range" name="faixa">
+        </form>
+        
+        <h2>Cor</h2>
+        <form method="post" action="#">
+            <input type="color" name="cor">
+        </form>
+        
+        <h2>Lista</h2>
+        <form method="post" action="#">
+            <input list="cursos" name="curso">
+            <datalist id="cursos">
+                <option value="HTML">
+                <option value="CSS">
+                <option value="JAVASCRIPT">
+            </datalist>
+        </form>
+    </section>
+    <footer></footer>
+</body>
+</html>
