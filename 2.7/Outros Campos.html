@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outros Campos</title>
+</head>
+<body>
+    <header><h1>Outros Campos</h1></header>
+    <nav></nav>
+    <section>
+        
+        <!--
+        Parâmetros
+        
+        <input type="file">
+        
+        accept - Especifica um filtro para quais tipos de arquivo o usuário pode escolher na caixa de diálogo de entrada de arquivo (apenas para type = 'file')
+        alt - Especifica um texto alternativo para imagens (apenas para type = 'image')
+        -->
+        <h2>Oculto</h2>
+        <form method="post" action="#">
+            <input type="hidden" name="id" value="123">
+        </form>
+        
+        <h2>Arquivo</h2>
+        <form method="post" action="#" enctype="multipart/form-data">
+            <input type="file" name="arquivo">
+        </form>
+    </section>
+    <footer></footer>
+</body>
+</html>
