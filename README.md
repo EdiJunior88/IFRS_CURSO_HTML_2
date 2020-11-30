@@ -9,4 +9,4 @@ Aqui iremos dar continuidade aos nossos estudos sobre a linguagem HTML. Em espec
 <hr>
 
 <h4><b>Aulas:</b> :vhs: 19 Video-aulas + Avaliações</h4>
-<h4><b>Status do Curso:</b> :speech_balloon: Estudando</h4>
+<h4><b>Status do Curso:</b> :white_check_mark: Concluído
