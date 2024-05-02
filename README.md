@@ -12,5 +12,11 @@ Aqui iremos dar continuidade aos nossos estudos sobre a linguagem HTML. Em espec
 
 <hr>
 
+<h3>Tecnologias Utilizadas</h3>
+
+Para ver todas as tecnologias [clique aqui](/techstack.md)
+
+<hr>
+
 <h4><b>Aulas:</b> :vhs: 19 Video-aulas + Avaliações</h4>
 <h4><b>Status do Curso:</b> :white_check_mark: Concluído
